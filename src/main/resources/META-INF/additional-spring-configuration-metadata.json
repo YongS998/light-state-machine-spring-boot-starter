@@ -1,0 +1,28 @@
+{
+  "properties": [
+    {
+      "name": "statemachine.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable state machine auto-configuration.",
+      "defaultValue": true
+    },
+    {
+      "name": "statemachine.prefix",
+      "type": "java.lang.String",
+      "description": "State machine configuration prefix.",
+      "defaultValue": "statemachine"
+    },
+    {
+      "name": "statemachine.debug",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable debug mode.",
+      "defaultValue": false
+    },
+    {
+      "name": "statemachine.monitor",
+      "type": "java.lang.Boolean",
+      "description": "Whether to enable performance monitoring.",
+      "defaultValue": false
+    }
+  ]
+}
